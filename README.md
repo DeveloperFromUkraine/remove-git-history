@@ -3,7 +3,7 @@
 First Method
 Deleting the .git folder may cause problems in our git repository. If we want to delete all of our commits history, but keep the code in its current state, try this:
 
-# Check out to a temporary branch:
+## Check out to a temporary branch:
 git checkout --orphan TEMP_BRANCH
 
 # Add all the files:
